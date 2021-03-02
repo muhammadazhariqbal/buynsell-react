@@ -119,10 +119,18 @@ input:focus {
     border: none;
 }
 /* media queryy */
+/* media queryy */
+@media screen and (max-width:750px){
+    .header-box img {
+        height: 200px;
+        width: 300px;
+        margin-top:5rem;
+    }
+}
 @media screen and (max-width:350px){
     .header-box img {
         height: 200px;
-        width: 100%;
-        margin-top:-2rem;
+        width: 100% !important;
+        margin-top:2rem;
     }
 }
