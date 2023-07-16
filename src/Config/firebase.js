@@ -4,14 +4,14 @@ import 'firebase/firestore'
 import 'firebase/storage'
 
 // Your web app's Firebase configuration
-var firebaseConfig = {
-    apiKey: "AIzaSyA9o7XzkTe4B7HZ8s_unK8QV0LW4LPdDGQ",
-    authDomain: "buynsell-d1c11.firebaseapp.com",
-    projectId: "buynsell-d1c11",
-    storageBucket: "buynsell-d1c11.appspot.com",
-    messagingSenderId: "261544386364",
-    appId: "1:261544386364:web:6dd948ba4b8771af1a4839"
-};
+const firebaseConfig = {
+    apiKey: "AIzaSyAA9LWMtoBWAPRht-LIDur5WQgvpTWwHkY",
+    authDomain: "buynsell-7abe5.firebaseapp.com",
+    projectId: "buynsell-7abe5",
+    storageBucket: "buynsell-7abe5.appspot.com",
+    messagingSenderId: "1087826289251",
+    appId: "1:1087826289251:web:e922068ebedb8cbb62ce56"
+  };
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
